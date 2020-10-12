@@ -1,0 +1,57 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-background-color:#E5E5E5;
+}
+
+
+.page{
+background-color: #E5E5E5;
+color: var(--primary-text-color) ;
+}
+.logo{
+    color: var(--accent-color) ;
+}
+.logo:hover{???}
+
+ul{
+    list-style: none ;
+}
+/* .list{list-style: none ;} для отдельных элементов*/
+
+
+/*.site-nav*/
+.site-nav a{
+    color: var(--title-text-color);
+}
+.site-nav .a:hover, 
+.site-nav .a:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .a .current{
+    color:var(--accent-color)
+}
+.section-title{
+    color:var(--title-text-color);
+}
+ 
+/*buttun*/
+.button{
+    color: var(--accent-color);
+    background-color: #E5E5E5;
+    font-size: 24px;
+    padding: 12px 24px;
+    display: inline-block;
+    border: 1px solid black;
+}
+.button.primary {
+    background-color: var(--accent-color);
+    color: #E5E5E5;
+    border-color: transparent;
+}
+/*основной текст #212121*/
+/*текст абзаца #757575*/
+/*текст загалова хедера #FFFFFF*/
+/*цвет веб #2196F3*/
