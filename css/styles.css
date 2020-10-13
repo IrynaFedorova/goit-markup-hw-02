@@ -57,8 +57,8 @@ ul{
 .section-title{
     color:var(--title-text-color);
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1,5px;
+    font-size: 36px;
+    line-height: 1,7px;
     letter-spacing: 0.03em;
 }
 .paragraph{
@@ -97,6 +97,8 @@ background-color: #2F303A;
     padding: 12px 24px;
     display: inline-block;
     border: 1px solid black;
+    align-items: center;
+    text-align: center;
 }
 
 .button-primary {
