@@ -60,8 +60,8 @@ ul{
     font-size: 14px;
     line-height: 1,5px;
     letter-spacing: 0.03em;
-
-.text{
+}
+.paragraph{
 font-weight: 400;
 font-size: 14px;
 line-height: 1,7px;
@@ -94,7 +94,7 @@ line-height: 1,7px;
 .button-primary {
     background-color: var(--accent-color);
     color: #E5E5E5;
-    /*border-color: transparent;*/
+    border-color: transparent;
 }
 
 
