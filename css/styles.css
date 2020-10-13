@@ -67,6 +67,10 @@ font-size: 14px;
 line-height: 1,7px;
 }
 
+.hero {
+background-color: #2F303A;
+}
+
 .hero-title{
     color:var(--title-text-color);
     font-style: 400;
@@ -74,7 +78,6 @@ line-height: 1,7px;
     font-size: 44px;
     line-height: 1,36px;
     text-align: center;
-    background-color: #2F303A;
 }
  
 /*buttun*/
