@@ -62,6 +62,15 @@ ul{
     line-height: 1,7px;
     letter-spacing: 0.03em;
 }
+
+.section-paragraph{
+color:var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2px;
+letter-spacing: 0.06em;
+}
+
 .paragraph{
 font-weight: 400;
 font-size: 14px;
@@ -106,6 +115,11 @@ background-color: #2F303A;
     border-color: transparent;
 }
 
+.button-secondary{
+    background-color: #F5F4FA;
+    color: #212121;
+    border-color: transparent;
+}
 
 /*шрифты страница портфолио и студия
 шапка веб студия - Raleway
