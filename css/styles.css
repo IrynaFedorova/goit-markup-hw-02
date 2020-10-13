@@ -74,6 +74,7 @@ line-height: 1,7px;
     font-size: 44px;
     line-height: 1,36px;
     text-align: center;
+    background-color: #2F303A;
 }
  
 /*buttun*/
@@ -87,6 +88,7 @@ line-height: 1,7px;
     display: inline-block;
     border: 1px solid black;
 }
+
 .button.primary {
     background-color: var(--accent-color);
     color: #E5E5E5;
