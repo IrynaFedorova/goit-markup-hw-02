@@ -71,6 +71,11 @@ line-height: 1,7px;
 background-color: #2F303A;
 }
 
+.hero-name{
+    color: #FFFFFF;
+    ;
+}
+
 .hero-title{
     color:var(--title-text-color);
     font-style: 400;
