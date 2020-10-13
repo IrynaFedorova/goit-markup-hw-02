@@ -34,7 +34,7 @@ ul{
 
 
 /*.site-nav*/
-.site-nav a{
+.site-nav-list a{
     color: var(--title-text-color);
     font-family: inherit;
     font-weight: 500;
@@ -42,19 +42,18 @@ ul{
     line-height: 1,14px;
     text-decoration: none;
 }
-.site-nav .a:hover, 
-.site-nav .a:focus{
+.site-nav-list .a:hover, 
+.site-nav-list .a:focus{
     color: var(--accent-color);
 }
 
-.site-nav .a .current{
+.site-nav-list .a .current{
     color:var(--accent-color);
 }
 
 .auth-nav-list{
     text-decoration: none;
     color: var(--title-text-color);
-    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14px;
@@ -80,11 +79,6 @@ line-height: 1,7px;
     font-size: 44px;
     line-height: 1,36px;
     text-align: center;
-}
-   
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase
 }
  
 /*buttun*/
