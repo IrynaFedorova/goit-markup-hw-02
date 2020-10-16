@@ -123,6 +123,11 @@ background-color: #2F303A;
 
 .footer-background {
     background-color: #2F303A;
+    font-style: 400;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36px;
+    text-align: left;
 }
 
 
