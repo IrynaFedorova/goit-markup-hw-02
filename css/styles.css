@@ -26,6 +26,11 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     text-decoration: none;
     
 }
+
+.logo-footer {
+    color: white;
+}
+
 .logo:hover{???}
 
 .accent{
@@ -123,11 +128,19 @@ background-color: #2F303A;
 
 .footer-background {
     background-color: #2F303A;
-    font-style: 400;
+    font-style: 400 normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36px;
     text-align: left;
+}
+
+.footer-text-color{
+    color: #FFFFFF;
+}
+
+.footer-text-color-address{
+   color:hsla(0, 0%, 60%, 1)
 }
 
 
