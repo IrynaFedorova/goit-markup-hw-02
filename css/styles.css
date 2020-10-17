@@ -29,9 +29,10 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 .logo-footer {
     color: white;
+    
 }
 
-.logo:hover{???}
+/*.logo:hover{???}*/
 
 .accent{
 color: black;
@@ -45,11 +46,13 @@ ul{
 /*.site-nav*/
 .site-nav-list a{
     color: var(--title-text-color);
-    font-family: inherit;
+    font-family: Robot;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14px;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .site-nav-list .a:hover, 
 .site-nav-list .a:focus{
@@ -58,6 +61,29 @@ ul{
 
 .site-nav-list .a .current{
     color:var(--accent-color);
+
+}
+
+.site-nav-list-address a{
+    color: #757575;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14px;
+    text-decoration: none;
+}
+
+.site-nav-list-address .a:hover, 
+.site-nav-list-address .a:focus{
+    color: var(--accent-color);
+}
+
+.site-nav-list-address .a .current{
+    color:var(--accent-color);
+}
+
+.color-page{
+    color: #2196F3;
 }
 
 .section-title{
@@ -124,15 +150,34 @@ background-color: #2F303A;
     background-color: #F5F4FA;
     color: #212121;
     border-color: transparent;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
+
+.link:hover,
+.link:focus {
+    background-color: var(--accent-color);
+}
+
+
 
 .footer-background {
     background-color: #2F303A;
-    font-style: 400 normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1,36px;
-    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /*text-align: left;*/
+    font-family: Roboto;
+    letter-spacing: 0.02em;
+
+   
+    
 }
 
 .footer-text-color{
