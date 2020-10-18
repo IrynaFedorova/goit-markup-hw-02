@@ -181,6 +181,7 @@ background-color: #2F303A;
   line-height: 26px;
   letter-spacing: 0.03em;
   text-align: center;
+  text-decoration-color: #FFFFFF;
 }
 
 .btn:active{
