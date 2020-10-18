@@ -46,7 +46,7 @@ ul{
 /*.site-nav*/
 .site-nav-list a{
     color: var(--title-text-color);
-    font-family: Robot;
+    font-family: Robotо;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -146,7 +146,7 @@ background-color: #2F303A;
     border-color: transparent;
 }
 
-.button-secondary{
+/*.button-secondary{
     background-color: #F5F4FA;
     color: #212121;
     border-color: transparent;
@@ -157,14 +157,36 @@ background-color: #2F303A;
     line-height: 26px;
     letter-spacing: 0.03em;
     text-align: center;
-}
+}*/
 
 .link:hover,
 .link:focus {
     background-color: var(--accent-color);
 }
+/*.button-secondary .a .current{
+    color:white;
+}*/
 
 
+.btn:hover,
+.btn:focus {
+ /* border-color: currentColor;*/
+  background-color: #F5F4FA;
+  color: #FFFFFF;
+ border-color: transparent;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.btn:active{
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
 
 .footer-background {
     background-color: #2F303A;
