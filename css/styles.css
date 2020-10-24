@@ -224,8 +224,27 @@ font-weight: 500;
 }
 
 
-/*шрифты страница портфолио и студия
-шапка веб студия - Raleway
-шапка и основное - Roboto
-футер- Roboto
-*/
+.container{
+    width: 1200px;
+    padding-left: 215px;
+    padding-top: 24px;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu{
+    display: inline-flex;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 1078px;
+}
